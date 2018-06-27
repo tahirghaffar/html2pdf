@@ -10,6 +10,8 @@ https://tcpdf.org/docs/fonts/
 
 ## Adding new font
 
+If you have font file *.ttf, you first have to generate its "font definition file" from url http://fonts.snm-portal.com/. Then copy paste these generated files in html2pdf/vendor/tecnickcom/tcpdf/fonts folder.
+
 To use this new font, you must add it to Html2Pdf, by using the following method:
 
 ```php
